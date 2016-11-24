@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+       <title>TD1</title>
+       <meta charset="utf-8">
+       <style type="text/css">
+
+       a {
+       	color: #fff;
+       }
+
+       	/* Espacement des bords (cadres) des cellules du tableau */
+       	table {
+       		border-collapse: separate;
+       		border: hidden;
+       	}
+
+       	/*Placement du titre (la légende) du tableau en bas et mise en gras */
+       	caption {
+       		caption-side: bottom;
+       		font-weight: bold;
+       	}
+
+       	/* Toutes les cellules (cases) sont encadrées par un trait bleu fin et continu. Leur alignement vertical est au milieu (le texte est centré en hauteur), leur hauteur est fixée à 2.4em */
+       	tr th, tr td {
+       		border: 1px solid blue;
+       		vertical-align: middle;
+       		height: 2.4em;
+       	}
+
+       	/* Les cellules de titre (th) du corps du tableau (tbody) de la première colonne doivent avoir un alignement vertical haut (le texte est en haut de la cellule) */
+       	tbody th:first-child {
+       		vertical-align: top;
+       	}
+
+       	/* Les cellules de données (td) ont un texte centré horizontalement et une largeur minimale de 10em. */
+       	td {
+       		text-align: center;
+       		min-width: 10em;
+       	}
+
+       	th {
+       		border-radius: 0.5em;
+       		background-color: rgb(79, 129, 189);
+       		color: #fff;
+       		border: 2px outset rgb(59, 97, 142) !important;
+       		box-shadow: 1px 1px 0 0 #000;
+       	}
+
+       	/* Toutes les cellules vides ne sont pas encadrées
+       	   Remarque : Je n'ai pas pris en compte les cellules concerné par 
+       	   les exeptions */
+       	thead tr:first-child th:first-child,
+       	thead tr:nth-child(3) th:nth-child(2),
+       	tbody tr:first-child th:first-child,
+       	tbody tr:nth-child(10) th:first-child{
+       		border-style: hidden !important;
+       		background-color: unset;
+       		box-shadow: unset;
+       	}
+
+       	/* Exception : les cellules de données vides sont encadrées uniquement à droite, en bas et à gauche par des tirets fin et noirs. */
+       	tbody tr:first-child td,
+       	tbody tr:nth-child(2) *:nth-child(2),
+       	tbody tr:nth-child(3) td:nth-child(1),
+       	tbody tr:nth-child(4) td:nth-child(1),
+       	tbody tr:nth-child(5) *:nth-child(2),
+       	tbody tr:nth-child(6) td:nth-child(1),
+       	tbody tr:nth-child(9) td:nth-child(1) {
+       		border-style: hidden dashed dashed dashed;
+       		border-color: #000;
+       	}
+
+       	/* Exception : les cellules de données vides de la première ligne du corps du tableau ont aussi le même type de trait pour les encadrer en haut, mais pas de traits sur leur gauche. */
+       	tbody tr:first-child td {
+       		border-left-style: hidden;
+       		border-top-style: dashed;
+       	}
+
+       	/* Exception : la première cellule de données vide de la première ligne du corps du tableau est aussi encadrée sur sa gauche */
+       	tbody tr:first-child *:nth-child(2) {
+       		border-left-style: dashed;
+       	}
+
+       	tbody tr:nth-child(2) td[colspan] {
+       		border-radius: 0.5em;
+       		border: 2px outset rgb(94, 73, 121);
+       		background-color: rgb(128, 100, 162);
+       		box-shadow: 1px 1px 0 0 #000;
+       	}
+
+       	tbody tr:nth-child(5) td:nth-child(3), tbody tr:nth-child(5) td:nth-child(4), tbody tr:nth-child(5) td:nth-child(5) {
+       		border-radius: 0.5em;
+       		border: 2px outset rgb(147, 178, 84);
+       		background-color: rgb(155, 187, 89);
+       		box-shadow: 1px 1px 0 0 #000;
+       		color: #fff;
+       	}
+
+       	tbody tr:nth-child(7) td, tbody tr:nth-child(8) td{
+       		border-radius: 0.5em;
+       		border: 2px outset rgb(59, 97, 142);
+       		background-color: rgb(59, 129, 189);
+       		box-shadow: 1px 1px 0 0 #000;
+       		color: #fff;
+       	}
+
+       	tbody tr:nth-child(8) td:nth-child(2) {
+       		opacity: 0.5;
+       	}
+
+       </style>
+</head>
+<body>
+	<table border="1">
+		<caption>tableau des études en info à l'UNS</caption>
+		<thead>
+			<tr>
+				<th rowspan="3"></th>
+				<th rowspan="3">IUT</th>
+				<th colspan="2">UFR Sciences</th>
+				<th rowspan="3">Polytech Nice Sophia</th>
+			</tr>
+			<tr>
+				<th colspan="2">Département Informatique</th>
+			</tr>
+			<tr>
+				<th>IUP MIAGE</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th></th>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowspan="3">Bac +8</th>
+				<td></td>
+				<td rowspan="3" colspan="3"><a href="http://edstic.i3s.unice.fr/">Doctorat / ED-STIC</a></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowspan="2">Bac +5</th>
+				<td></td>
+				<td rowspan="2">Master Miage</td>
+				<td rowspan="2">Master Informatique</td>
+				<td rowspan="3"><a href="http://www.polytechnice.fr/page11.html" >Ingénieur Informatique</a></td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<th rowspan="3">Bac +3</th>
+				<td>LPRO</td>
+				<td><a href="http://miageprojet2.unice.fr/Licence_MIAGE_3#Pr.c3.a9sentations_g.c3.a9n.c3.a9rales">parcours Miage</a></td>
+				<td rowspan="3">Licence Informatique</td>
+			</tr>
+			<tr>
+				<td rowspan="2">DUT</td>
+				<td>DU IG</td>
+				<td rowspan="2">Cycle Préparatoire</td>
+			</tr>
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<th></th>
+				<th colspan="4">BAC</th>
+			</tr>	
+		</tbody>	
+	</table>
+</body>
+</html>
