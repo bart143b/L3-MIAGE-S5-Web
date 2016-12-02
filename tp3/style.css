@@ -1,0 +1,93 @@
+#menu_principal li {
+  display: inline;
+  margin: 5px 0px 5px 5px ;
+  color: #fff ;
+}
+
+#menu_principal {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#menu_principal li a {
+  padding: 4px 20px ;
+  color: #802D5E ;
+  font-weight: 900px;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+
+#menu_principal li a:hover, #menu_principal li a:active, #menu_principal li a:focus {
+  font-weight: bold;
+}
+
+body {
+	margin: 0px;
+	background-color: #E8E8E8;
+}
+
+#body {
+	max-width: 900px;
+	margin:auto;
+	padding: 4.5em 20px 0px 20px;
+}
+
+#head {
+	height: 3.5em;
+	box-shadow: 0px 8px 12px #aaa;
+	position: fixed;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+fieldset, form {
+	font: 0.9em "Trebuchet MS",Arial,sans-serif ;
+	border-radius: 5px;
+	margin: 30px 10px 20px 10px;
+	padding: 20px 15px 10px 15px;
+	background-color: #fff;
+	box-shadow: 8px 8px 12px #aaa;
+}
+
+fieldset {
+	border-style: none;
+}
+/*
+fieldset:hover {
+	border-style: solid;
+	margin: 20px 0px 10px 00px;
+}*/
+
+input[type="submit"] {
+	background-color: #802D5E;
+	color: #fff;
+	padding: 5px 7px 5px 7px;
+	font-size:1em;
+	border: 1px solid #802D5E;
+	border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+	background-color: #232323;
+	border-color: #000;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 1.3em;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #fff;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
+}

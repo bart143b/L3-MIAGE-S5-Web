@@ -10,20 +10,20 @@
 <!ATTLIST article date CDATA #IMPLIED>
 ]>
 <news>
-  <categorie>
-    <nom>économie</nom>
-    <article>
-      <titre><![CDATA[Carburant : les prix à la pompe repartent à la baisse ]]></titre>
-      <auteur><![CDATA[TF1]]></auteur>
-      <texte><![CDATA[<div><img src="http://s.tf1.fr/mmdia/i/01/0/carburants-baisse-des-prix-les-automobilistes-ravis-10756010wzrpx_1713.jpg?v=3" alt="Carburants : baisse des prix, les automobilistes ravis ?" itemprop="image"><p>Alors que le litre de gazole a atteint la semaine dernière un record en France avec un prix moyen à 1,45 euro. Le gouvernement a confirmé la baisse des prix de 6 centimes. Qu'en pensent les autmobilistes ? / Crédits : TF1/LCI</p></div>	
+	<categorie>
+		<nom>économie</nom>
+		<article>
+			<titre>Carburant : les prix à la pompe repartent à la baisse </titre>
+			<auteur>TF1</auteur>
+			<texte><![CDATA[<div><img src="http://s.tf1.fr/mmdia/i/01/0/carburants-baisse-des-prix-les-automobilistes-ravis-10756010wzrpx_1713.jpg?v=3" alt="Carburants : baisse des prix, les automobilistes ravis ?" itemprop="image"><p>Alors que le litre de gazole a atteint la semaine dernière un record en France avec un prix moyen à 1,45 euro. Le gouvernement a confirmé la baisse des prix de 6 centimes. Qu'en pensent les autmobilistes ? / Crédits : TF1/LCI</p></div>	
 <strong>Le prix du litre de super sans plomb 95 a baissé de 3,7 centimes, à 1,5421 euro le litre, et le tarif de l'essence sans plomb 98 a reculé de 3 centimes par litre, à 1,6040 euro. </strong>	
 <div><p align="justify">Les prix à la pompe en France sont repartis à la baisse la semaine passée, l'essence sans plomb (95 comme 98) perdant même plus de trois centimes par litre en moyenne, selon les relevés hebdomadaires publiés lundi soir par le ministère de l'Ecologie et de l'Energie. </p><p align="justify">Le prix du litre de super sans plomb 95 a baissé de 3,7 centimes, à 1,5421 euro le litre. Le tarif de l'essence sans plomb 98 a connu un mouvement semblable, reculant de 3 centimes par litre, à 1,6040 euro. Pour le gazole, le repli a été plus modéré, à hauteur de 0,70 centime par litre. Ce dernier coûtait 1,3959 euros en moyenne. </p><p class="S4029" align="justify">Recul du prix du baril de la mer du Nord </p><p align="justify">Cette baisse généralisée des prix à la pompe en France intervient après plusieurs semaines de hausse. Ce mouvement a correspondu au recul du prix du baril de la mer du Nord, référence du marché européen. Il est passé d'une semaine à l'autre de près de 88 euros à un peu moins de 85 euros. En août, il était monté à près de 94 euros.<br>&nbsp;<br>Conformément à sa promesse de lutter contre la cherté des carburants, le gouvernement avait baissé, fin août, de 3 centimes par litre les taxes sur le gazole et l'essence, et négocié avec les industriels un coup de pouce supplémentaire de deux à trois centimes, selon leurs possibilités. Ces mesures doivent s'appliquer pendant trois mois, le temps pour le gouvernement de mettre en place un dispositif pérenne contre la cherté des carburants. </p></div>
 			]]></texte>
-    </article>
-    <article>
-      <titre><![CDATA[Déficits publics : trois Français sur quatre sont pessimistes]]></titre>
-      <auteur><![CDATA[tf1]]></auteur>
-      <texte><![CDATA[<div><img src="http://s.tf1.fr/mmdia/i/62/9/argent-billet-monnaie-10607629jiodp_1713.jpg?v=1" alt="argent billet monnaie" itemprop="image"></div>
+		</article>
+		<article>
+			<titre><![CDATA[Déficits publics : trois Français sur quatre sont pessimistes]]></titre>
+			<auteur><![CDATA[tf1]]></auteur>
+			<texte><![CDATA[<div><img src="http://s.tf1.fr/mmdia/i/62/9/argent-billet-monnaie-10607629jiodp_1713.jpg?v=1" alt="argent billet monnaie" itemprop="image"></div>
 
 <strong>Plus des trois quarts des Français (78%) estiment que le gouvernement ne parviendra pas à ramener ses déficits publics à 3% du PIB fin 2013, selon un sondage Ifop pour Acteurs publics publié mardi. </strong>
 
@@ -31,29 +31,19 @@
 <br><br>Par ailleurs, le Quai d'Orsay est cité comme le ministère devant réaliser le plus d'économies, devant le ministère de la Défense et le ministère de l'Economie et des Finances.
 <br><br>Ce sondage Ifop a été réalisé en ligne auprès d'un échantillon de 995 personnes représentatif de la population française âgée de 18 ans et plus, du 17 au 22 octobre.
 <br></div></div>]]></texte>
-    </article>
-    <article>
-      <titre><![CDATA[Je suis ton père]]></titre>
-      <auteur><![CDATA[sdfsfds]]></auteur>
-      <texte><![CDATA[sfdfsdfs]]></texte>
-    </article>
-  </categorie>
-  <categorie>
-    <nom>politique</nom>
-    <article>
-      <titre><![CDATA[UDI : Fillon "déçu et choqué" par Jouanno, Juppé inquiet]]></titre>
-      <auteur><![CDATA[TF1]]></auteur>
-      <texte><![CDATA[L'ancien Premier ministre s'est dit "déçu et choqué" lundi par le départ à l'UDI de Chantal Jouanno, sénatrice de Paris.]]></texte>
-    </article>
-    <article>
-      <titre><![CDATA[Nicolas Sarkozy rencontre la présidente Dilma Rousseff et Lula au Brésil ]]></titre>
-      <auteur><![CDATA[TF1 encore]]></auteur>
-      <texte><![CDATA[Nicolas Sarkozy a rencontré la présidente du Brésil Dilma Roussef, ainsi que l'ancien président Lula. L'ancien chef de l'Etat doit participer à une conférence avec des banquiers à Sao Paulo. ]]></texte>
-    </article>
-    <article>
-      <titre><![CDATA[Cambadélis lance une pétition pour le droit de vote des étrangers]]></titre>
-      <auteur><![CDATA[tf1]]></auteur>
-      <texte><![CDATA["Il faut cesser de reculer, de tergiverser, de biaiser !", écrit le député de Paris en relevant que François Hollande a été élu "en étant clair" sur ce sujet notamment.]]></texte>
-    </article>
-  </categorie>
+		</article>
+	</categorie>
+	<categorie>
+		<nom>politique</nom>
+		<article>
+			<titre>UDI : Fillon "déçu et choqué" par Jouanno, Juppé inquiet</titre>
+			<auteur>TF1</auteur>
+			<texte><![CDATA[L'ancien Premier ministre s'est dit "déçu et choqué" lundi par le départ à l'UDI de Chantal Jouanno, sénatrice de Paris.]]></texte>
+		</article>
+		<article>
+			<titre>Nicolas Sarkozy rencontre la présidente Dilma Rousseff et Lula au Brésil </titre>
+			<auteur>TF1 encore</auteur>
+			<texte>Nicolas Sarkozy a rencontré la présidente du Brésil Dilma Roussef, ainsi que l'ancien président Lula. L'ancien chef de l'Etat doit participer à une conférence avec des banquiers à Sao Paulo. </texte>
+		</article>
+	<article><titre><![CDATA[Cambadélis lance une pétition pour le droit de vote des étrangers]]></titre><auteur><![CDATA[tf1]]></auteur><texte><![CDATA["Il faut cesser de reculer, de tergiverser, de biaiser !", écrit le député de Paris en relevant que François Hollande a été élu "en étant clair" sur ce sujet notamment.]]></texte></article></categorie>
 </news>

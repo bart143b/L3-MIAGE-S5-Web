@@ -4,8 +4,10 @@ function __getPersistance($typepersistance = "PersistanceXml") {
 	// pour utiliser la persitance
 	$persitance = new $typepersistance();
 
-	$persitance->charger();
+	return ($persitance->charger()) ? $persitance : null;
+}
 
-	return $persitance;
+function __getCss($nom = "style") {
+	return "<link rel='stylesheet' href='{$nom}.css'/>";
 }
 ?>

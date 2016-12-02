@@ -1,4 +1,15 @@
 <?php
+/**
+ * PHP version 5 ou plus
+ *
+ * @category   L3 Web Persistance
+ * @package    web.tp3
+ * @author     Isabelle Mirbel <Isabelle.Mirbel@unice.fr>
+ * @author     Adam Issoufi <issoufi.adam1@gmail.com>
+ * @version    1.0
+ * @link       http://www-mips.unice.fr/~ai401938/web/tp3
+ */
+
 class Categorie {
 	
 	/**
@@ -15,7 +26,7 @@ class Categorie {
 	
 	/**
 	 * constructeur
-	 * @param string $nom
+	 * @param string $nom : Le nom de la cathégorie que l'on souhaite céer
 	 */
 	public function Categorie($nom = "sports")
 	{
@@ -32,8 +43,9 @@ class Categorie {
 		{
 			$this->articles[$a->getTitre()] = $a;
 			$a->setCategorie($this);
-			// ce n'est pas persistant
+			return true;
 		}
+		return false;
 	}
 	
 	/**
@@ -45,8 +57,9 @@ class Categorie {
 		if (key_exists($a->getTitre(), $this->articles))
 		{
 			unset($this->articles[$a->getTitre()]);
-			// ce n'est pas persistant
+			return true;
 		}
+		return false;
 	}
 	
 	/**
@@ -81,6 +94,9 @@ class Categorie {
 		return $this->articles;
 	}
 	
+	/**
+	 * @return String : Le nom de ma catégorie
+	 */
 	public function getNom()
 	{
 		return $this->nom;
